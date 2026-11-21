@@ -11,7 +11,7 @@ class Config:
     OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
     
     # Application Settings
-    SECRET_KEY = os.getenv('SECRET_KEY', 'voice-excel-secret-key-2024')
+    SECRET_KEY = os.getenv('SECRET_KEY')
     DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
     
     # Upload Settings
