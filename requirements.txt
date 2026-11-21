@@ -23,7 +23,7 @@ numpy==1.26.2
 # Text to Speech
 pyttsx3==2.90
 gTTS==2.5.0
-
+gunicorn
 # Utilities
 werkzeug==3.0.1
 requests==2.31.0
